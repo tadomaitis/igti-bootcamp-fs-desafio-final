@@ -1,11 +1,8 @@
 import express from "express";
+import controller from "../controllers/TransactionsController.js";
 
 const transactionRouter = express.Router();
 
-transactionRouter.get("/", (_, res) => {
-  res.json({
-    error: `É necessário informar o parâmetro "period", cujo valor deve estar no formato aaaa-mm.`,
-  });
-});
+transactionRouter.get("/", controller.rootRoute);
 
 export default transactionRouter;
