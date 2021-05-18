@@ -6,7 +6,7 @@
   "dependencies": {
     "bl": "^2.2.1",
     "cors": "2.8.5",
-    "dotenv": "8.2.0",
+    "dotenv": "9.0.2",
     "express": "4.17.1",
     "http-proxy": "^1.18.1",
     "lodash": "4.17.21",
@@ -14,7 +14,8 @@
     "mongoose": "5.10.3",
     "node-forge": "^0.10.0",
     "path": "0.12.7",
-    "serialize-javascript": "^3.1.0"
+    "serialize-javascript": "^3.1.0",
+    "sucrase-register": "1.0.2"
   },
   "devDependencies": {
     "nodemon": "2.0.4"
